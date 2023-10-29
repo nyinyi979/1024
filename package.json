@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "test": "npx nodemon index",
+    "start": "node index",
+    "serve": "node index",
+    "postinstall": "npx tailwindcss -i ./public/input.css -o ./public/dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
