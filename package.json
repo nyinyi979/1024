@@ -1,8 +1,8 @@
 {
   "scripts": {
     "test": "npx nodemon index",
-    "start": "node index",
-    "serve": "node index",
+    "start" : "node index" , 
+    "vercel-build" : "echo hello",
     "postinstall": "npx tailwindcss -i ./public/input.css -o ./public/dist/output.css --watch"
   },
   "devDependencies": {
